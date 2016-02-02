@@ -2,10 +2,10 @@ var autoprefixer = require('autoprefixer');
 
 module.exports = {
     context: __dirname,
-    entry: "./resources/assets/js/app.js",
+    entry: "./js/app.js",
     devtool: 'source-map',
     output: {
-        path: __dirname + "/public/js",
+        path: __dirname,
         filename: "bundles.js"
     },
     module: {
